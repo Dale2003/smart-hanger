@@ -19,3 +19,4 @@
 4. https://github.com/search?q=%E6%99%BA%E8%83%BD%E8%A1%A3%E6%9E%B6&type=repositories
 5. mpu6050+stm32f103开发： https://zhuanlan.zhihu.com/p/199461135
 6. stm32电源设计-usb供电与锂电池供电： https://bbs.21ic.com/icview-2039068-1-1.html
+7. stm32最小系统板已有嘉立创设计： https://oshwhub.com/tm521/stm32zui-xiao-ji-tong-ban#P2

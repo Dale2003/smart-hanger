@@ -3,12 +3,13 @@
 ## 采购清单
 
 1. 温湿度传感器：DHT11
-2. 三轴加速度传感器：MPU6050
+2. 拉力传感器：LFS-02
 3. Wi-Fi模块：ESP8266
 4. stm32芯片：F103
 5. 电源模块：18650电池+18650电池电源转换模块
 
-
+## 项目展示视频
+【【课程作业】智能电子系统设计与实践 —— 智能衣架展示视频】 https://www.bilibili.com/video/BV1pw4m1v7JJ/?share_source=copy_web&vd_source=ae1654bb627eb22bd5e6654c6342fdee
 
 ## 参考资料
 

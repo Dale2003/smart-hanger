@@ -1,0 +1,14 @@
+screen -X -S tcp quit
+screen -S tcp -dm
+screen -S tcp -X stuff "cd /home/ubuntu/tcp_test
+"
+screen -S tcp -X stuff "sudo python test.py
+"
+screen -d tcp
+screen -X -S w quit
+screen -S w -dm
+screen -S w -X stuff "cd /home/ubuntu/tcp_test
+"
+screen -S w -X stuff "python check_clothes.py
+"
+screen -d w

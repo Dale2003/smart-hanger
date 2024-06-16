@@ -11,6 +11,15 @@
 ## 项目展示视频
 【【课程作业】智能电子系统设计与实践 —— 智能衣架展示视频】 https://www.bilibili.com/video/BV1pw4m1v7JJ/?share_source=copy_web&vd_source=ae1654bb627eb22bd5e6654c6342fdee
 
+## 文件说明
+- 硬件工程源文件:内为嘉立创EDA专业版文件，内含设计原理图及PCB板设计图（最终版）
+- smart_hanger_iphone：用于iphone快捷指令的前端界面代码源码，将代码复制到快捷指令中即可运行
+  - start.txt：开始晾衣服
+  - check_data：查看衣物数据（重力、温湿度） 
+  - check_state.txt：查看衣物状态（是否晾干、危险）
+- smart_hanger_window：服务器端代码源码，用于对数据进行处理(test.py)并允许衣物晾干和天气危险判定算法(check_clothes.py)
+- Lab4_WIFI_weather_3_tcptest(1): 衣架端STM32代码，开发平台为Keil
+
 ## 参考资料
 
 1. stm32f103最小系统板硬件开发示例（如何用一个stm32芯片开发出一个能连接各个传感器以及烧录调试的小板子，但是其实可以直接白嫖这种已经设计好的小板子作为mcu然后通过pcb直接连接各个传感器和模块）： https://blog.csdn.net/pzslongyutianxia/article/details/128550735
